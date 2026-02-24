@@ -1,0 +1,31 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ML models (large binary files — regenerate with ml/train_model.py)
+ml/*.pkl
+
+# Spark output & checkpoints
+output/
+
+# Credentials (never commit secrets)
+credentials.json
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -1,0 +1,8 @@
+kafka-python
+requests
+pyspark
+streamlit
+pandas
+scikit-learn
+joblib
+numpy
